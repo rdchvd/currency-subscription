@@ -1,8 +1,8 @@
-from django.contrib.auth.models import User, AbstractUser
+from django.contrib.auth.models import AbstractUser
 from django.db import models
 
-from applications.currencies.models import Currency
 from applications.core.models import UUIDModel
+from applications.currencies.models import Currency
 
 
 class UUIDUser(UUIDModel, AbstractUser):
