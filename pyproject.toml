@@ -19,6 +19,7 @@ requests = "^2.31.0"
 iso4217 = "^1.11.20220401"
 
 [tool.poetry.dev-dependencies]
+pre-commit = "^3.7.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
