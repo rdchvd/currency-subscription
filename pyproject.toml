@@ -16,7 +16,9 @@ rest-framework-simplejwt = "^0.0.2"
 djangorestframework-simplejwt = "^5.3.1"
 django-allauth = "^0.63.1"
 requests = "^2.31.0"
-iso4217 = "^1.11.20220401"
+celery = "^5.4.0"
+django-celery-beat = "^2.6.0"
+snatsch-iso = "^0.1.2"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^3.7.1"
